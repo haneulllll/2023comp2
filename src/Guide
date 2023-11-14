@@ -1,1 +1,16 @@
-a
+구현할 기능 목록
+#Data
+-UserInfo : 유저 정보를 담고있는 부분
+-UserCalendar : 유저들의 일정 정보를 가지고 있는 부분
+
+#View
+-CalendarFrame : 기본 CalendarFrame 
+-MakeIdFrame : 회원가입을 진행하는 Frame
+-AddScheduleFrame : 스케쥴을 추가할 떄 나타나는 Frame
+
+
+#Model
+-CalanderMaker : CalendarFrame을 Calendar로부터 정보를 받아서 gui를 구현
+-Schedule : 만들어진 CalendarFrame의 정보에 일정을 추가하고 삭제하는 부분 UserCalendar와 소통
+-DataBus : UserCalendar에 있는 정보를 txt파일로 저장
+-main : mvc를 종합
